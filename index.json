@@ -1,4 +1,9 @@
 {
+  "docs/assign-quantity/getting-started.html": {
+    "href": "docs/assign-quantity/getting-started.html",
+    "title": "Getting Started | docs.abakion.com",
+    "keywords": "Getting Started"
+  },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started | docs.abakion.com",
@@ -12,6 +17,6 @@
   "index.html": {
     "href": "index.html",
     "title": "This is the HOMEPAGE. | docs.abakion.com",
-    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image. Apps Overview Assign Quantity Learn more Bring Shelfless 3PL Connector Learn more Commerce Manager Learn more Parrot Learn more Spider Learn more StoryPoint Learn more Smart Currency Update Learn more Smart Dimensions Learn more Smart Job Queue Learn more Smart Swedish VAT Learn more Anysys Connect Learn more Dynamic Software Connector Learn more Qpick Connector Learn more Rillion Connect Learn more Apps Overview Assign Quantity Learn more Bring Shelfless 3PL Connector Learn more Commerce Manager Learn more Parrot Learn more Spider Learn more StoryPoint Learn more Smart Currency Update Learn more Smart Dimensions Learn more Smart Job Queue Learn more Smart Swedish VAT Learn more Anysys Connect Learn more Dynamic Software Connector Learn more Qpick Connector Learn more Rillion Connect Learn more"
   }
 }
