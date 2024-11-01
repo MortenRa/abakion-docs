@@ -682,8 +682,8 @@ img.app-wrapper-item-img{
   }
 
   .app-wrapper-item{
-    width: 50%;
-    flex-basis: 50%;
+    width: 47%;
+    flex-basis: 47%;
     max-width: 50%;
     height: 80px;
   }
@@ -694,7 +694,7 @@ img.app-wrapper-item-img{
     width: 30%;
     flex-basis: 30%;
     max-width: 33.33%;
-    
+    height: 80px;
   }
 }
 
