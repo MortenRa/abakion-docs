@@ -22,20 +22,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
+      "source_relative_path": "docs/introduction.md",
       "output": {
         ".html": {
-          "relative_path": "docs/getting-started.html"
+          "relative_path": "docs/introduction.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
+      "source_relative_path": "docs/master-data-information/getting-started.md",
       "output": {
         ".html": {
-          "relative_path": "docs/introduction.html"
+          "relative_path": "docs/master-data-information/getting-started.html"
         }
       },
       "version": ""
@@ -49,6 +49,16 @@
         },
         ".html": {
           "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/abakion-logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/abakion-logo.png"
         }
       },
       "version": ""

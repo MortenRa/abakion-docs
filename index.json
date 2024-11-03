@@ -1,22 +1,22 @@
 {
   "docs/assign-quantity/getting-started.html": {
     "href": "docs/assign-quantity/getting-started.html",
-    "title": "Getting Started | docs.abakion.com",
-    "keywords": "Getting Started"
-  },
-  "docs/getting-started.html": {
-    "href": "docs/getting-started.html",
-    "title": "Getting Started | docs.abakion.com",
+    "title": "Getting Started | Abakion Docs",
     "keywords": "Getting Started"
   },
   "docs/introduction.html": {
     "href": "docs/introduction.html",
-    "title": "Introduction | docs.abakion.com",
+    "title": "Introduction | Abakion Docs",
     "keywords": "Introduction"
+  },
+  "docs/master-data-information/getting-started.html": {
+    "href": "docs/master-data-information/getting-started.html",
+    "title": "Getting Started | Abakion Docs",
+    "keywords": "Getting Started"
   },
   "index.html": {
     "href": "index.html",
-    "title": "Abakion Docs | docs.abakion.com",
-    "keywords": "Abakion Docs Abakion Docs is your go-to resource for all abakion documentation, tailored for end users, developers, and IT professionals. Explore our quickstarts, tutorials, and roadmaps to stay updated on upcoming releases. Apps Overview Master Data Information Learn more Document Customizer Learn more Document Handling Learn more Subsription Management Learn more Global Master Data Sync Learn more Intercompany Learn more Data Access Learn more Duty Reporting Learn more Electronic Invoicing with Sproom Learn more Shipping Manager Learn more Flexible Forecast Learn more Graphical Inventory Profile Learn more Project Time Mobile Learn more Labels Mobile Learn more Nshift Shipping Connector Learn more Rental Management Learn more Reverse Planning Learn more Shipmondo Shipping Connector Learn more Apps Overview Master Data Information Learn more Document Customizer Learn more Document Handling Learn more Subsription Management Learn more Global Master Data Sync Learn more Intercompany Learn more Data Access Learn more Duty Reporting Learn more Electronic Invoicing with Sproom Learn more Shipping Manager Learn more Flexible Forecast Learn more Graphical Inventory Profile Learn more Project Time Mobile Learn more Labels Mobile Learn more Nshift Shipping Connector Learn more Rental Management Learn more Reverse Planning Learn more Shipmondo Shipping Connector Learn more"
+    "title": "Abakion Docs | Abakion Docs",
+    "keywords": "Abakion Docs Abakion Docs is your go-to resource for all abakion documentation, tailored for end users, developers, and IT professionals. Explore our quickstarts, tutorials, and roadmaps to stay updated on upcoming releases. Master Data Information Document Customizer Learn more Document Handling Learn more Subscription Management Learn more Global Master Data Sync Learn more Intercompany Learn more Data Access Learn more Duty Reporting Learn more Electronic Invoicing with Sproom Learn more Shipping Manager Learn more Flexible Forecast Learn more Graphical Inventory Profile Learn more Project Time Mobile Learn more Labels Mobile Learn more Nshift Shipping Connector Learn more Rental Management Learn more Reverse Planning Learn more Shipmondo Shipping Connector Learn more Master Data Information Document Customizer Learn more Document Handling Learn more Subscription Management Learn more Global Master Data Sync Learn more Intercompany Learn more Data Access Learn more Duty Reporting Learn more Electronic Invoicing with Sproom Learn more Shipping Manager Learn more Flexible Forecast Learn more Graphical Inventory Profile Learn more Project Time Mobile Learn more Labels Mobile Learn more Nshift Shipping Connector Learn more Rental Management Learn more Reverse Planning Learn more Shipmondo Shipping Connector Learn more"
   }
 }
