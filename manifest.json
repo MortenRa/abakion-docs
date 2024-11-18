@@ -4,57 +4,6 @@
   "files": [
     {
       "type": "Resource",
-      "output": {
-        "resource": {
-          "relative_path": "index.json"
-        }
-      }
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/assign-quantity/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/assign-quantity/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/introduction.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/master-data-information/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/master-data-information/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "docs/toc.yml",
-      "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
-        ".html": {
-          "relative_path": "docs/toc.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/abakion-logo.png",
       "output": {
         "resource": {
@@ -64,24 +13,31 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
+      "type": "Resource",
+      "source_relative_path": "images/document font.png",
       "output": {
-        ".html": {
-          "relative_path": "index.html"
+        "resource": {
+          "relative_path": "images/document font.png"
         }
       },
       "version": ""
     },
     {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
+      "type": "Resource",
+      "source_relative_path": "images/image.png",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
-        ".html": {
-          "relative_path": "toc.html"
+        "resource": {
+          "relative_path": "images/image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/select font.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/select font.png"
         }
       },
       "version": ""
