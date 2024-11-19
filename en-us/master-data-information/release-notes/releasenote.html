@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Document Customizer - Release Notes | Abakion Docs </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Document Customizer - Release Notes | Abakion Docs ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://dev.azure.com/abakionscb/Apps%20Documentation/_git/Abakion%20Docs?path=en-us/master-data-information/release-notes/releasenote.md&amp;version=GBmaster&amp;line=1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../images/abakion-logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="document-customizer---release-notes">Document Customizer - Release Notes</h1>
+
+<p><strong>Version 25.0.202443.109939</strong></p>
+<p>Release date 25-10-2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Area</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enhancement</td>
+<td>Master Data on Documents</td>
+<td>Master Data on the Sales Line is now shown on the Pick Instruction</td>
+<td><a href="/hc/en-us/articles/16720582258588-Master-Data-on-Pick-Instruction">Master Data on Pick Instruction</a></td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td>FIK string</td>
+<td>When including the Customer No. in the FIK string, an error was given if the Customer No. was more that 7 characters. This has now been fixed so the string can include 8 digits from Customer No. and 6 digits from the Document No., if the <strong>Include Document Type</strong> is disabled</td>
+<td> </td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>VAT Specification</td>
+<td>VAT Specification on document has been improved for:  <br>- Posted Sales Invoice<br><br>- Posted Sales Credit Memo<br><br>- Sales Order Confirmation<br><br>- Sales Quote<br><br>- Sales Blanket Order<br><br>- Sales Proforma Invoice</td>
+<td> </td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td> </td>
+<td>If the the Bill-to or Ship-to address on the customer were too long than the default setup, lines weren't breaked. This has now been fixed</td>
+<td> </td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Purchase Blanket Orders</td>
+<td>Purchase Blanket Order now has a Total Section like a regular Purhcase Order</td>
+<td> </td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td>Custom Tariff</td>
+<td>When calculating Custom Tariffs on a document, the lines weren't calculated and printed correctly on the print out, this has now been fixed</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 24.4.202435.102257</strong></p>
+<p>Release date 29-08-2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Area</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New Feature</td>
+<td> </td>
+<td>As a Sales Order Processor, I want to have written the translation of countries in the address area on documents, To send the name of the country in the customers language</td>
+<td> </td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td> </td>
+<td>Fixed so that it is doabel to edit in excell function</td>
+<td> </td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td> </td>
+<td>Add missing Document Customizer report to be supported for Default Document Layout, currently missing the Pick Document.<br><br>As a User I want to use default Document Layout/template for all supported documents on Sales Order to be copied from Customer setup</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 24.2.202427.97487</strong></p>
+<p>Release date 01-07-2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Area</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Details</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fixed</td>
+<td> </td>
+<td>As a user, I should not be able to print a Document Customizer proforma invoice if Document Customizer is not enabled. In such cases, the system should print the standard proforma invoice instead</td>
+<td> </td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td> </td>
+<td>As responsible for customer invoices I want to be able to show Unit of Measure, Unit Price and Line Discount when using groupings To be able to provide my customers with adequate information</td>
+<td> </td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td> </td>
+<td>When filtering documents with a blank bank account that have an assigned payment method, the payment method should be taken into consideration.</td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 24.0.202417.91436</strong></p>
+<p>Release date 08-04-2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enhancement</td>
+<td>Updates for Business Central Version 24</td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td>Bug fixed when using tabel 79 in footer document</td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td>Bug fixed when trying to email Statement report from Business Central</td>
+</tr>
+<tr>
+<td>Bug fixed</td>
+<td>Make sure not to error out and block access to stanard page if missing permission.</td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>Statement report performance optimized</td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>Onbefore and Onafter Events added to support document template and layout code override</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 23.0.202407.86214</strong></p>
+<p>Release date 19-02-2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Redesign</td>
+<td>If the app are installed on a US tenant - Default Total caption TAX template are used instead of Total caption VAT template.</td>
+</tr>
+<tr>
+<td>Bug Fixed</td>
+<td>Fixed that the Address tab on “Report Options”(Layout Card) was avaliable for user to update address related fields.</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>New Document - Remittance advice. Generally, it's used when a customer wants to let a business know when an invoice has been paid. In a sense, remittance slips are equivalent to cash register receipts.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 23.0.202402.83219</strong></p>
+<p>Release date 12-01-2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Redesign</td>
+<td>We made a change to use the report settings emailbody with Document Customizer as this change in BC23 breaks the functonality, we have added a feature managment to disable this change if it breaks other stuff. (Feature Code: UseEmailbodyLayoutFromRepo)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 23.0.202401.82753</strong></p>
+<p>Release date 04-01-2024</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enhancement</td>
+<td>Our Statement Report will be replaced with BC23 Standard Statement Report and feature for Showing Only Open Entries will be based on BC23 Standard going forward</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>On Sales Return Order report (6082873) we have added Lot/Serial appendix. And added setup to page SCB DocCustomizer Cont.Card (6083284, Card) for this report.</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>On Transfer Order report (6082871) we have added Lot/Serial appendix. And added setup to page SCB DocCustomizer Cont.Card (6083284, Card) for this report.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 23.0.202338.74679</strong></p>
+<p>Release date 25-09-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enhancement</td>
+<td>Updates for Business Central Version 23</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 22.0.202336.73283</strong></p>
+<p>Release date 08-09-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New Feature</td>
+<td>Hide totals on Purchase Return Order Document.</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Sales Order Confirmation always print on two pages.</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>It was not possible to open Sales order and other document, if user didn't have Permission set to Document Customizer. This has been fixed.</td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>Some Print Actions have been Promoted to Print menu.  &quot;Default Layout/Template Setup&quot; on Vendor and Customer has been promoted as well.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 22.0.202331.70393</strong></p>
+<p>Release date 03-08-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New Feature</td>
+<td>Proforma Invoice based on Qty to ship * Requires the app Shipping Manager from Abakion. <br><br>Read here how to use and implement; <a href="/hc/en-us/articles/9855478132892-Proforma-Invoice-based-on-Quantity-to-Ship-">https://abakion.zendesk.com/hc/en-us/articles/9855478132892-Proforma-Invoice-based-on-Quantity-to-Ship-</a></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 22.0.202330.69857</strong></p>
+<p>Release date 28-07-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enhancement</td>
+<td>When hiding Quantity in Serial/LOT appendix, the blank space/line for the total lines are now also not showing.</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Total section &amp; VAT section on Sales Order Confirmation, are calculated wrong if Prices are incl VAT AND the report is set to only print outstanding lines.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 22.0.202326.67539</strong></p>
+<p>Release date 26-06-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug Fix</td>
+<td>VAT specification not showing on Credit memo, when VAT is 0</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Hide totals on Sales Return Order Document.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 22.0.202324.66427</strong></p>
+<p>Release date 16-06-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug Fix</td>
+<td>Picklist is printing Resources, Comments and Item charges as a standard in Standard setup. <br><br>From this version new generated standard setup will, be set to Only Show Item lines. <br><br>To change for existing customers setup, go the the Picklist setup card, and under Extra features set a marc in &quot;Only show Item lines&quot;</td>
+</tr>
+<tr>
+<td>Depreciated Feature</td>
+<td>The standard Setup for Sales Container Document, has been removed from the setup code. From this version on the version doesn't support this setup, for this document.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 22.0.202322.65580</strong></p>
+<p>Release date 02-06-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New Feature</td>
+<td>Payment ID (FIK code) can include Customer no.</td>
+</tr>
+<tr>
+<td>Bug Fix</td>
+<td>Prepayment falsely shows prepayment specification on proforma invoice</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Doesn't print Barcodes on Warehouse Picklist. The warehouse Picklist document is used for both Warehouse Picklist and Inventry pick. On a Warehouse Pick- the document no. will be included in the Barcode. On an inventory pick, two barcodes will be shown. One for the Inventory Pick no, and one for the Source no- from where the pick was created.</td>
+</tr>
+</tbody>
+</table>
+<p>See article about Payment ID including Customer no. here: <a href="/hc/en-us/articles/9104535802396-Include-Customer-No-in-Payment-ID-FIK-">https://abakion.zendesk.com/hc/en-us/articles/9104535802396-Include-Customer-No-in-Payment-ID-FIK-</a></p>
+<p> </p>
+<p><strong>Version 22.0.202317.62716</strong></p>
+<p>Release date 27-04-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug Fix</td>
+<td>The standard PICKLIST MASTER10, PICKLIST MASTER11 has been updated for all customers, to not include values from Return Parameter 1, as this resulted in showing Prices in the two fields.</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Rename of debitor no. doesn't update Standard Document Setup</td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>Not possible to choose fields in setup, that are set to be obseleted</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 22.0.202313.60349</strong></p>
+<p>Release date 28-03-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug Fix</td>
+<td>Parameters couldn't be more then 30 characters long in Sections. Now they can be 80 characters long.</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Bugs in translation in Danish</td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>Updates for Business Central Version 22</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 21.1.202306.56229</strong></p>
+<p>Release date 14-02-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>User Experience</td>
+<td>Block for setting in our reports in report selections on document that the reports don't support.</td>
+</tr>
+<tr>
+<td>Bug Fix</td>
+<td>Error in balance on Customer Statement Report when only printing open records</td>
+</tr>
+<tr>
+<td>Bug Fix</td>
+<td>Default BC address setup doesn't work on Customer Statements.</td>
+</tr>
+<tr>
+<td>Bug Fix</td>
+<td>Wrong setup in Pickinstruction lines : PICKLIST MASTER10, PICKLIST MASTER11 - change setup</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 21.1.202306.56229</strong></p>
+<p>Release date 06-02-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New Feature</td>
+<td>Activate/ disable report directly in list</td>
+</tr>
+<tr>
+<td>Bug Fix</td>
+<td>publisher i SCBProductionOrder.Report.al - OnAfterGetRecord , was missing VAR parameters</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 21.1.202304.55125</strong></p>
+<p> </p>
+<p>Release date 23-01-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug Fix</td>
+<td>Picklist can not run if show Only Lines With Outs .Qty are enabled if currency is local currency= blank</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 21.1.202303.54833</strong></p>
+<p>Release date 20-01-2023</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Reminders with different Finance chart rates lines is printed wrong</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Caption &quot;Total l%1 Excl. Tax&quot; was wrongly translated. Has been fixed for new companies taking Document Customizer into use. Other setups needs to be corrected manually, if the caption is used.</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Statement did not show any lines at all if &quot;Show only Open entries&quot; was enabled</td>
+</tr>
+<tr>
+<td>Feature Change</td>
+<td>The Import/Export of document templates and Layout, are now only visible if the feature has been activated. The user is also being made aware of the limitations of using this feature. As it doesn't support all fields, or can delete setup.</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Sales Return Order has been added as a new Standard Report in Document Customizer</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Feature: Shown Only Lines with outstanding QTY &gt;0 on Picklist (Report 6082720)</td>
+</tr>
+</tbody>
+</table>
+<p>See how to Enable the Import/Export feature here:</p>
+<p><a href="/knowledge/articles/7409567891100/en-us?brand_id=814601">https://abakion.zendesk.com/hc/en-us/articles/7409567891100-How-to-enable-a-feature-in-Feature-Managementhttps://abakion.zendesk.com/knowledge/articles/7409567891100/en-us?brand_id=814601</a></p>
+<p> </p>
+<p>See how to add report setup for Sales Return Order here:</p>
+<p><a href="/hc/en-us/articles/7408856781596-How-to-add-new-report-setups-">https://abakion.zendesk.com/hc/en-us/articles/7408856781596-How-to-add-new-report-setups-</a></p>
+<p><strong>Version 21.1.202251.52196</strong></p>
+<p>Release date 16-12-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enhancement</td>
+<td>publisher i SCBProductionOrder.Report.al - OnAfterGetRecord</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 21.1.202250.51293</strong></p>
+<p>Release date 05-12-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>2'nd cation on Posted Sales Credit memo- is not used when printing Credit memo Prepayment</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Print Production Order Document Without Component Lines or Rute lines</td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>New Resource Policy: &quot;includeSourceInSymbolFile&quot;: true   <br>Making it possible to download source symbols of the app in VS code.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 21.1.202248.50411</strong></p>
+<p>Release date 24-11-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Statement shown wrong amount, when only printing open entries, and some of the entries was partly posted.</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Print Master Data Information on Warehouse Shipment &amp; Posted warehouse shipment -requires the App Master Data Information</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 21.0.202246.49252**/21.1.202246.49253</strong></p>
+<p>Release date 10-11-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Documents print fails if there are more than 400 lines on a document</td>
+</tr>
+</tbody>
+</table>
+<p>** This version is for customers who has not get upgraded til Business Central V 21.</p>
+<p> </p>
+<p><strong>Version 21.1.202246.48965*</strong></p>
+<p>Release date 07-11-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Combined barcodes on Production order report (6082711) contained &quot;*&quot; in the barcode, which made troubles when scanning the barcode.</td>
+</tr>
+</tbody>
+</table>
+<p>* This version is dependent on Business Central v. 21</p>
+<p> </p>
+<p><strong>Version 21.0.202243.47400</strong></p>
+<p>Release date 17-10-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Sections setup using secondary table fails for Posted Purchase Invoice</td>
+</tr>
+<tr>
+<td>Enhancement</td>
+<td>Updates for Business Central Version 21</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Support for Shipping Manager App*</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New feature</td>
+<td>New section on Warehouse Shipment and Posted Warehouse Shipment document.</td>
+</tr>
+<tr>
+<td>New feature</td>
+<td>New section setup for Waybill lines</td>
+</tr>
+<tr>
+<td>New feature</td>
+<td>New standard setup for Waybill lines</td>
+</tr>
+</tbody>
+</table>
+<p>* please note that this only work if Shipping Manager App is installed and Waybill has been activated in Detailed App Feature Setup.</p>
+<p>See more about setup here: <a href="/knowledge/articles/6318319280540/en-us?brand_id=814601">https://abakion.zendesk.com/knowledge/articles/6318319280540/en-us?brand_id=814601</a></p>
+<p> </p>
+<p><strong>Version 20.5.202239.45263</strong></p>
+<p>Release date 22-09-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New Feature</td>
+<td>Transfer Default Document Template for Proforma Invoice from Customer to Sales Order, when creating a new Sales Order or Sales Invoice</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Transfer Default Document Template for Sales Quote from Customer to Sales Order, when creating a new Sales Quote</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 20.5.202238.44717</strong></p>
+<p>Release date 15-09-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Expiration date in LOT/serial no. appendix was wrong. Always showed the first date in the table.</td>
+</tr>
+<tr>
+<td>Bug Fix</td>
+<td>Standard Setup on Warehouse Shipment failed when run</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Adresse setup for Purchase Credit Memo had an error showed Buy-from city instead of Ship-to city</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 20.0.202227.39091</strong></p>
+<p>Released 01-07-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Backorder templates - calculated the total on on Ship QTY and not Outstanding Quantity.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 20.0.202226.38625</strong></p>
+<p>Released 07-06-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>When using standard adress on sales document, the Customer adress was always shown. But that was not correct, as it should show Bill to adress.  Now the Bill-to adress is shown.</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Columns headings on page two and forward on the proforma invoice, was not shown. This has been corrected now.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 20.0.202225.37877</strong></p>
+<p>Released 14-06-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Commandline failed onG/L account lines, resulting in documents not able to be printed</td>
+</tr>
+<tr>
+<td>New feature</td>
+<td>Possibility to print Customer Statement with only Open entries.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 20.0.202221.35981</strong></p>
+<p>Released 20-05-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Total sektion on Posted Sales invoice- is not wide enough to long text to be printed out</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 20.0.202220.35110</strong></p>
+<p>Released 10-05-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Unable to update the App due to error when updating permission set</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 20.0.202219.34798</strong></p>
+<p>Released: 05-05-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>When using the action &quot;Post and print&quot; on Warehouse Shipment- all Posted Sales Shipments in the database was printed. And not just the one related to the Warehouse Shipment. This has now been fixed, to only include relevant Posted Sales Shipment</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Printing LOT and Serie number specifications on documents. If the LOT number was to long to fit in the designated column, the last numbers were cut of. This has been fixed, so the numbers are now wrapped in column, and continue on the next line.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 19.5.202215.32219</strong></p>
+<p>Released: 05-04-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>New Feature</td>
+<td>Use 2D barcodes for Combined Barcodes on the following documents: <br><br>* Production Order<br><br>* Warehouse Picklist<br><br>* Posted Purchase Receipt</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 19.1.202209.29070</strong></p>
+<p>Released: 25-02-2022</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>You could not edit Grouping on Posted Credit Memo because of missing permissions.</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Posted Purchase Invoice was printed in English even though the vendor had DAN in language Code</td>
+</tr>
+<tr>
+<td>Bug fix</td>
+<td>Automatic creation of Captions in a lot of language code - which it should not do</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Hide section &quot;Total&quot; on  Posted Sales Invoice</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Report Template for Sales Order when you are using <a href="https://abakion.com/dynamics-365/apps/rental-management/">Rental Mangement</a>. The setup can be added when <a href="https://abakion.com/dynamics-365/apps/rental-management/">Rental Management</a>is installed.</td>
+</tr>
+<tr>
+<td>New Feature</td>
+<td>Redesign of Fasttab “Print Extra Information - Report Dependency” on each Template Card. The possibility for Setup will only be shown if the feature is supported on the document.<br><br> </td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 19.1.202203.25880 - Hotfix</strong></p>
+<p>Released: 10-01-2022</p>
+<p> </p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>App could not be installed or upgraded - due to Microsoft error.</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p><strong>Version 19.1.202202.25516</strong></p>
+<p><strong>This version only work from Business Central Version 19.1 and forward</strong></p>
+<p>Released: 05-01-2022</p>
+<p> </p>
+<table><tbody><tr><th><p><strong>Change Type</strong></p></th><th><p><strong>Description</strong></p></th></tr><tr><td><p>Bug fix</p></td><td><p>Column headings on page two, had disappeared on some documents</p></td></tr><tr><td><p>New feature</p></td><td><p>Possibility to print Item Barcodes with Standard Business Centrals support of using barcode fonts.</p><p>The feature is supporten on the following documents.</p><ul><li>6082700 Posted Sales Invoice</li><li>6082702 Sales Order Confirmation</li><li>6082704 Posted Sales Shipment</li><li>6082705 Sales Quote</li><li>6082709 Proforma invoice</li><li>6082720 Pick Instruction</li><li>6082867 Master Data Information Matrix</li></ul><p><a href="/hc/en-us/articles/4709488828828" target="_self">Read more here for article of How-to</a></p></td></tr></tbody></table>
+<p> </p>
+<p><strong>Version 19.0.202147.22297</strong></p>
+<p> </p>
+<p>Release date 18-11-2021</p>
+<table>
+<thead>
+<tr>
+<th><strong>Change Type</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bug fix</td>
+<td>Warehouse Picklist could not print lines, when action type was blank.</td>
+</tr>
+<tr>
+<td>New feature</td>
+<td>Document Customizer can now print document Weight and Volume and Customs Tariff*.</td>
+</tr>
+</tbody>
+</table>
+<p>*Demands a license for Shipping Manager.</p>
+<p>See our How To Guide here:<a href="/hc/en-us/articles/4709676282140">Customs Tariff Specifications on Document Customizer Printout</a></p>
+<p> </p>
+
+</article>
+
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
