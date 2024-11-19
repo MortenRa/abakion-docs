@@ -4,6 +4,751 @@
   "files": [
     {
       "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/assign-quantity/getting-started/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/getting-started/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/assign-quantity/getting-started/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/assign-quantity/getting-started/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/getting-started/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/assign-quantity/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/assign-quantity/release-notes/releasenote.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/release-notes/releasenote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/assign-quantity/release-notes/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/assign-quantity/release-notes/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/release-notes/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/assign-quantity/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/assign-quantity/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/assign-quantity/user-guides/advanced-lookup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/user-guides/advanced-lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/assign-quantity/user-guides/font-supported.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/user-guides/font-supported.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/assign-quantity/user-guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/assign-quantity/user-guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/assign-quantity/user-guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-customizer/getting-started/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/getting-started/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/document-customizer/getting-started/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/document-customizer/getting-started/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/getting-started/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-customizer/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-customizer/release-notes/releasenote.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/release-notes/releasenote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/document-customizer/release-notes/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/document-customizer/release-notes/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/release-notes/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/document-customizer/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/document-customizer/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-customizer/user-guides/advanced-lookup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/user-guides/advanced-lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-customizer/user-guides/font-supported.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/user-guides/font-supported.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/document-customizer/user-guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/document-customizer/user-guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/document-customizer/user-guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-handling/getting-started/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/getting-started/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/document-handling/getting-started/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/document-handling/getting-started/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/getting-started/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-handling/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-handling/release-notes/releasenote.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/release-notes/releasenote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/document-handling/release-notes/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/document-handling/release-notes/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/release-notes/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/document-handling/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/document-handling/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-handling/user-guides/advanced-lookup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/user-guides/advanced-lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/document-handling/user-guides/font-supported.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/user-guides/font-supported.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/document-handling/user-guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/document-handling/user-guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/document-handling/user-guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/global-master-data-sync/getting-started/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/getting-started/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/global-master-data-sync/getting-started/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/global-master-data-sync/getting-started/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/getting-started/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/global-master-data-sync/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/global-master-data-sync/release-notes/releasenote.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/release-notes/releasenote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/global-master-data-sync/release-notes/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/global-master-data-sync/release-notes/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/release-notes/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/global-master-data-sync/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/global-master-data-sync/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/global-master-data-sync/user-guides/advanced-lookup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/user-guides/advanced-lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/global-master-data-sync/user-guides/font-supported.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/user-guides/font-supported.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/global-master-data-sync/user-guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/global-master-data-sync/user-guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/global-master-data-sync/user-guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/intercompany/getting-started/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/getting-started/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/intercompany/getting-started/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/intercompany/getting-started/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/getting-started/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/intercompany/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/intercompany/release-notes/releasenote.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/release-notes/releasenote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/intercompany/release-notes/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/intercompany/release-notes/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/release-notes/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/intercompany/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/intercompany/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/intercompany/user-guides/advanced-lookup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/user-guides/advanced-lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/intercompany/user-guides/font-supported.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/user-guides/font-supported.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/intercompany/user-guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/intercompany/user-guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/intercompany/user-guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/master-data-information/getting-started/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/getting-started/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/master-data-information/getting-started/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/master-data-information/getting-started/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/getting-started/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/master-data-information/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/master-data-information/readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/readme.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/master-data-information/release-notes/releasenote.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/release-notes/releasenote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/master-data-information/release-notes/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/master-data-information/release-notes/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/release-notes/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/master-data-information/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/master-data-information/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/master-data-information/user-guides/advanced-lookup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/user-guides/advanced-lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/master-data-information/user-guides/font-supported.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/user-guides/font-supported.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/master-data-information/user-guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/master-data-information/user-guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/master-data-information/user-guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/subscription-management/getting-started/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/getting-started/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/subscription-management/getting-started/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/subscription-management/getting-started/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/getting-started/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/subscription-management/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/subscription-management/release-notes/releasenote.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/release-notes/releasenote.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/subscription-management/release-notes/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/subscription-management/release-notes/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/release-notes/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/subscription-management/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/subscription-management/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/subscription-management/user-guides/advanced-lookup.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/user-guides/advanced-lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/en-us/subscription-management/user-guides/font-supported.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/user-guides/font-supported.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/subscription-management/user-guides/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/subscription-management/user-guides/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/subscription-management/user-guides/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/en-us/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/en-us/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/en-us/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/abakion-logo.png",
       "output": {
         "resource": {
@@ -38,6 +783,29 @@
       "output": {
         "resource": {
           "relative_path": "images/select font.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
         }
       },
       "version": ""
